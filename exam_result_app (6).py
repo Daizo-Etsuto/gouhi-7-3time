@@ -5,8 +5,8 @@ import re
 
 # 日本時間（JST: UTC+9）に設定
 JST = timezone(timedelta(hours=9))
-start_time = datetime(2025, 6, 10, 10, 0, tzinfo=JST)
-end_time = datetime(2025, 6, 17, 14, 0, tzinfo=JST)
+start_time = datetime(2025, 7, 3, 10, 39, tzinfo=JST)
+end_time = datetime(2025, 7, 3, 10, 41, tzinfo=JST)
 now = datetime.now(JST)
 
 st.set_page_config(page_title="入塾テスト合否結果", page_icon="🔢")

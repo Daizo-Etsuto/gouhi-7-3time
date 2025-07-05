@@ -55,10 +55,6 @@ else:
         else:
             result = data.get((exam_id, password))
             if result:
-                if "合格" in result:
-                    st.image("https://media.giphy.com/media/26tPoyDhjiJ2g7rEs/giphy.gif", caption="🌸 合格おめでとうございます！", use_column_width=True)
-                    st.success(f"🌸 {result}")
-                else:
-                    st.info(f"📄 {result}")
+                st.success(f"\u2705 【結果】{result}")
             else:
                 st.error("⚠️ 受験番号あるいはパスワードが一致しません。")

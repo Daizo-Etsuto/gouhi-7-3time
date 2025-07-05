@@ -10,7 +10,7 @@ end_time = datetime(2025, 7, 12, 10, 41, tzinfo=JST)
 now = datetime.now(JST)
 
 st.set_page_config(page_title="入塾テスト合否結果", page_icon="🔢")
-st.title("📈 教室入塾テスト合否結果")
+st.title("📈 入塾テスト合否結果")
 
 # 公開期間チェック
 if now < start_time:
